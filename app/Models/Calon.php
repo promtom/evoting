@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Calon extends Model {
+    protected $table='calon';
+
+    protected $fillable = [
+        'nama_cln',
+        'visimisi',
+        'foto',
+    ];
+}
